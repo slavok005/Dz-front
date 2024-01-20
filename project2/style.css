@@ -1,0 +1,24 @@
+ul {
+    list-style: square; /* none убирает маркер*/
+}
+ul li {
+    color: green;
+    font-size: 24px;
+}
+ol li{
+    font-size: 20px;  
+}
+table {border-collapse: collapse;}/* убирает смежные границы*/
+td,th {
+    border: 1px solid black;/* границы каждой ячейки*/
+    font-size: 24px;
+    padding: 10px;/* внутренний отступ*/
+}
+/*
+border - граница, рамка
+    1px - толщина границы
+    solid - тип (одна линия)
+    black - черный
+ list-style определяет стиль маркера
+ 
+ */

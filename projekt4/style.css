@@ -1,0 +1,28 @@
+.down {
+    color: aqua;
+    background-color: rebeccapurple; 
+    
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 30px;
+    padding: 0.1px;
+}
+h2 {
+    text-align: center;
+    color: aquamarine;
+    font-size: 30px;
+    padding: 0.1px;
+}
+h3 {
+    color: aqua;
+    text-align: center;
+    
+    font-size: 30px;
+    padding: 0.1px;
+}
+.img {
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 0.1px;
+}

@@ -1,0 +1,38 @@
+/**{
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    border: 2px solid ;
+    margin: 5px;
+}
+.one {
+    width: 500px;
+}
+.two {
+    width: 100%;
+    border: 2px solid;
+}
+
+.three {
+    width: 100vw;
+}
+
+/* абсолютная единица измерения */
+/* px */
+
+/* Относительная единица измерения */
+/* %, vw */
+
+.one {
+    font-size: 10 px;
+}
+.two {
+    font-size: 2em;
+}
+.three {
+ font-sizi: 5em;
+}
+/*  1em = 10px
+    2em = 20px
+ */

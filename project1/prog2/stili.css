@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    front-size: 50px;
+    text-align: center;
+}
+h3 {
+    font-size: 60px;
+    text-align: right;
+}
+p,a {
+    font-size: 35px;
+    text-align: center;
+}
+a {
+    display: block;
+}
+img {
+    width: 500;
+}
