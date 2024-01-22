@@ -1,0 +1,83 @@
+* {
+   
+    
+     margin:0px;      /*  сброс внешнего отступа */
+     padding: 0px;
+     box-sizing: border-box;/* padding входит в ширину- высоту блока*/
+}
+.container {
+    /* height: 700px; */
+    display: flex;
+    justify-content: center; /*выранивание по горизонтале*/
+    flex-wrap: wrap ; /* убираем поведение flex в одну строчку*/
+
+    
+    /* align-items: center;выранивание по вертикали */
+}
+
+.item {
+    
+    width: calc(50% - 20px);     /*ширина элемента внутреннего элемента*/
+    height: 200px;   /*высота*/
+    background-color: rgb(127, 221, 34); /*цвет фона*/
+    margin: 10px; /*внешний отступ*/
+    display: flex;
+}
+.item-1 {
+    background-image: url(./GEL.png);
+}
+/* background-size: cover || contain; 
+            cover - на всю ширину блока, масштабирует по высоте
+            contain - на всю высоту блока, масшатбирует по ширине
+
+    background-position: center; 
+        определяет позицию фоновой картинки внутри блока
+
+    background-repeat: no-repeat; 
+        если картинка меньше блока, она автоматически начинает повторяться,
+            данное свойство убирает это поведение
+ba   
+
+ДЗ. Решить 12 уровней flexbox froggy
+    Добавить картинки для 8 блоков
+    */
+
+
+
+
+
+
+/* .item-1 { 
+    padding: 10px;
+}
+
+
+.item-2 {
+    background-color: rgb(197, 22, 52);
+    margin-left: 200px;
+}
+.item-3 {
+    background-color: rgb(44, 4, 11);
+    margin-left: 400px; 
+}
+.p {
+    padding: 15px 30px;
+} */
+
+
+
+
+/*margin - это внешний отступ. 
+    1. -top - сверху
+    2. -right - справа 
+    3. -bottom - снизу
+    4. -left - слева 
+
+    margin: 10px; - со всех сторон
+    margin: 10px 20px;  10px - сверху/снизу, 20px - справа/слева
+    margin: 10px auto 20px; 10px - сверху, auto - справа слева, 20px - снизу
+    margin: 10px 20px 30px 40px; 
+        10px - сверху, 20px - справа, 30px - снизу, 40px - слева
+
+
+        */
