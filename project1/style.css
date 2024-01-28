@@ -4,7 +4,6 @@ h1 {
   text-align: center; /* выравнивание по центру*/
 }
 .post-1 {
-    width: 70%;  /* ширина блока*/
     margin: auto; /*центрирование блока*/
     background-color: chartreuse;
     padding: 10px; /*внутренний отступ*/

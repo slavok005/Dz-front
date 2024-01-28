@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;     /* padding включается в размер блока*/
+}
+
+/*Pevaj stranica  */
+
+
+.s1 {
+  
+  padding: 57px 413px 146px 402px;
+  background-size: 1920px 700px;
+  background-color: #c1cce4;
+  
+  }
+
+  .ps1 {
+    text-align: left; /*Выравнивание текста*/
+    
+  }
+  .menu .WD {
+     width: 100px;
+    height: 162px;
+    
+             
+    /* width: 611px; */
+    /* padding:10px 0px 0px 100px; */ */
+    
+      display: flex;
+      flex-direction: column;
+  }
+.WD{
+width: 96px;
+height: 60px;
+}
+
+.button1 {
+  margin: auto;
+  background-color: #34547A;
+  color: #eeeff1;
+  height: 55px;
+  width: 190px;}
+
+
+
+
+
+
+/*vosmaj stranica */
+ .s8{
+  background-size: 1920px 661px;
+  background-color: #eeeff1;
+  padding: 100px 0 135px;
+}
+h2 {
+  text-align: center; /*Выравнивание текста*/
+}
+p {
+  color: #727272;
+  text-align: center;
+  width: 30%;
+  margin: 50px auto 65px;
+}
+
+form {
+  width: 540px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+display: flex;
+column-gap:30px;
+row-gap: 20;
+}
+.form-control input {
+      
+   
+    padding:20px;
+    width: 255px;
+    height: 50px;
+ 
+}
+
+textarea {
+
+  margin: 20px 0 50px;
+  padding: 20px;
+}
+
+
+.btn_sub {
+    margin: 0 auto;/* выравнивание по центру!!!!*/
+    background-color: #34547A;
+    color: #eeeff1;
+    height: 55px;
+    width: 190px;
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+   
+    letter-spacing: 2.1px;
+}
+
+.name{
+  margin-right: 29px;
+ 
+}
