@@ -1,1 +1,1 @@
-https://slavok005.github.io/
+https://slavok005.github.io/Dz-front/
