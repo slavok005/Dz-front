@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #1ABC9C;
+    padding: 15px 0;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+.header-wrapper {
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-link {
+    font-size: 24px; /*размер шрифта*/
+    color: black; /*цвет ссылки*/
+    text-decoration: none;/* убираем нижнеее подчеркивание*/
+    margin-right: 20px;
+
+  }
+  .social-icon:not(:last-child) { /* последний элемент не трогает оставляет без здвига*/
+    margin-right: 20px;
+  }
+ 
+  .about {
+    display: flex;
+    align-items: center;
+  }
+  .about-img {
+    width: 50%;
+  }
+  .about-info {
+    width: 50%;
+  }
+  h1 {
+    font-size: 35px;
+    font-weight: 400px; /*Жироность шрифта*/
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .about-descr {
+    padding: 0 65px;
+    font-size: 20px;
+
+  }
+
+  .projects {
+    padding: 125px 0;
+    background-color: #DCFFEC;
+  }
+  .projects-title {
+    font-size: 35px;
+    font-size: 400;
+    margin-bottom: 50px;
+  }
+  .projects-list {
+    display: flex;
+    gap: 40px; /* отступы между flex- элементами*/
+  }
+  .project {
+ background-image: url(./imege/arena.png); /*фон блока*/
+ width: 33%;
+ aspect-ratio: 436/376; /*1.15/1  соотношение сторон  задаем размер фото*/
+ background-size: 100% ;
+ display: flex;
+ align-items: flex-end;
+  
+}
+.project-hover {
+    background: rgba(0, 0, 0, 0.38);
+    color: #DCFFEC;
+    padding: 30px 35px 15px;
+    opacity: 0;
+}
+.project:hover .project-hover {
+    opacity: 1; /* возвращфем прозрачность на 1*/
+
+
+}
+.project-hover-title {
+    font-size: 24px;
+}
+
+
+ /* Псевдоклассы:
+ 1. not - не
+ 2. last-child - последний элемент */
