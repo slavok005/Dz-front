@@ -1,7 +1,11 @@
 // Обработка событий
-// а.При нажатии на кнопку в консоли отображать "Клик"
-// б. При нажатии 
-
+// а. При нажатии на кнопку в консоли отображать "Клик"
+// б. При нажатии на кнопку увеличивать число в h1 на 1. инкремент
+// в. при нажатии на кнопку "Минус" уменьшать число в h1
+// г. при нажатии на кнопку "Сброс" менять значение на 0
+// д. Убрать возможность появления отрицательных чисел. Минимально возможное значение - 0
+// ж. Максимально допустимое значение - 10. Когда вы достигли этого значение - отобразить
+// тег h1 с текстом "Это максимальное значение" и увеличение дальше не происходит
 
 
 // const button = document.querySelector(".btn") // поиск элемента
@@ -43,16 +47,22 @@
 
 
 // При нажатии на все кнопки - в консоле отображать "Кликнули"
-//используя цикл for()
-const button = document.querySelectorAll(".button")
+//используя цикл for()\
 
-for(let i = 0; i <button.length; i++){
-  buttons[i].array.forEach(element => {
-    
-  });("click", function(){
+const buttons = document.querySelectorAll("button") // [button1, button2, button3]
+
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
     console.log("кликнули")
-  }) 
-} 
+})
+})
+// Переписать цикл for на forEach()
+
+/*
+    Метод forEach - метод массива, который позволяет применить колбэк-функцию ко всем 
+    элементам массива. Используется вместо цикла for. Упрощенная версия цикла for, которая
+    выглядит более читабельно
+    
 // const names = ["Arsen", "Hanna", "Sergey", "Maria"]
 // names.forEach(function(name) {
 //     console.log(`Привет, ${name}`)
@@ -91,3 +101,44 @@ element.addEventListner(type, callback) метод слушателя событ
 //     console.log(a + b)
 // }
 // sum(10, 15) // immediately invoke function - немедленный вызов функции
+
+
+
+
+
+
+
+
+
+// // console.log(sum(10, 15)) // 25
+
+// // const mySum = sum(10, 15) // 
+
+// // // if(arr.length == 0) { return null }
+// // const username = "Arsen"
+// // username.length // длина строки - количество символов в строке 5
+// // Создать переменную, которая будет сохранять самую длинную строку в массиве
+
+// const array = ["Arsen", "Ivan", "Kolya"]
+// let max_length = 0
+// for(let i = 0; i < array.length; i++) {
+//     // console.log(array[i].length)
+//     if(max_length < array[i].length) {
+//         max_length = array[i].length
+//     }
+// }
+// /*
+//     i = 0, array.length = 3
+//     1. i = 0, 0 < 3 - true, max_length < array[0].length, 0 < 5 - true, max_length = 5
+//     2. i = 1, 1 < 3 - true, max_length < array[1].length, 5 < 4 - false, max_length = 5
+//     3. i = 2, 2 < 3 - true, max_length < array[2].length, 5 < 5 - false, max_length = 5
+// */
+
+// // 5, 4, 5
+// function sum(a, b) {
+//   return a + b
+// }
+
+// const mySum = sum(10, 15)
+
+// console.log(mySum)
