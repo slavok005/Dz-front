@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  background-color: rgb(7, 7, 7);
+}
+
+body {
+  width: 1512px;
+  margin: auto;
+
+}
+
+.logo {
+  margin-left: 198px;
+}
+
+.letter {
+  margin-right: 30px;
+}
+
+.header {
+  background: #fff;
+  width: 1512px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navi {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+h6 {
+  margin-right: 20px;
+  color: var(--Text-color, #222);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+button {
+  border-radius: 25px;
+  border: 2px solid black;
+  color: black;
+  width: 173px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-right: 201px;
+  background: transparent;
+}
+
+.main {
+  width: 1512px;
+  height: 1242px;
+  background: #ebebeb;
+}
+
+.yslugi {
+  width: 445px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--bdbdbd, #bdbdbd);
+  padding-top: 140px;
+  padding-left: 201px;
+  padding-bottom: 40px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 138%;
+}
+
+.opisanie {
+  padding-left: 201px;
+
+  padding-bottom: 102px;
+
+  width: 663px;
+  height: 47px;
+  flex-shrink: 0;
+  color: var(--333333, #333);
+  font-family: Merriweather;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 144.555%;
+}
+
+.maket {
+  width: 1110px;
+  height: 750px;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.btn-maket {
+  width: 173px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-left: 45px;
+}
+
+.service-maket,
+h3 {
+  width: 187px;
+  height: 54px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 126%;
+  padding: 40px 0px 0px 45px;
+  margin-bottom: 176px;
+}
+
+.maket {
+  margin-left: 201px;
+  margin-right: 201px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+}
+
+.foto1 {
+  background-image: url(/dom1.jpg);
+}
+
+.foto1:hover {
+  background-image: url(/dom2.jpg);
+}
+
+
+
+.kvadrat1{
+  background-image: url(/fon.jpg);
+ 
+}
+.kvadrat1:hover {
+  background-image: url(/fon.jpg);
+  
+}
+.kvadrat1:hover .number__kvadrat,
+.kvadrat1:hover .sdelki,
+.kvadrat1:hover .knopka_kvadrat{
+  color: white;
+}
+.kvadrat1:hover .knopka_kvadrat{
+border: 2px solid white;
+}
+
+
+.footer {
+  width: 1512px;
+  height: 844px;
+  background: white;
+  display: flex;
+}
+
+.company {
+  height: 570px;
+  width: 570px;
+  background-color: white;
+  margin-left: 185px;
+
+}
+
+.tabl__setka {
+  height: 570px;
+  width: 540px;
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 217px;
+
+
+
+
+}
+
+p {
+  width: 155px;
+  height: 23px;
+  flex-shrink: 0;
+  color: var(--bdbdbd, #BDBDBD);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 138%;
+  padding-bottom: 40px;
+
+}
+
+h1 {
+  width: 347px;
+  height: 117px;
+  color: var(--Accent, #005fa3);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 144.555%;
+}
+
+.text {
+  padding-top: 60px;
+  padding-right: 125px;
+  color: var(--bdbdbd, #BDBDBD);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+
+}
+
+.kvadrat1 {
+  margin-top: 30px;
+  width: 255px;
+  height: 255px;
+  background: #EBEBEB;
+}
+
+.number__kvadrat {
+  padding-top: 30px ;
+  padding-left: 40px;
+  width: 75px;
+  height: 54px;
+  color: #000;
+  font-family: Lato;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 5.5px;
+  text-transform: uppercase;
+}
+.sdelki{
+  padding-top: 50px;
+  padding-right: 108px;
+  padding-left: 40px;
+  width: 107px;
+  height: 37px;
+  color: #000;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 132%;
+}
+
+.knopka_kvadrat {
+
+  width: 173px;
+  height: 50px;
+
+  margin: 90px 52px 23px 30px;
+  border-radius: 25px;
+  border: 2px solid #005FA3;
+  color: #005FA3;
+  text-align: center;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+}
